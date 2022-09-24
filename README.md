@@ -26,4 +26,4 @@ https://treykockelman.github.io/05-trey-kockelman-calendar-planner/
 
 ## Screenshot
 
-![Alt text](./assets/Screenshot.PNG)
+![Alt text](./assets/Screenshot.PNG
