@@ -10,7 +10,7 @@ NA
 
 ## Usage
 
-The use of this page is to generate a quiz for coding purpose about me and coding.
+The use of this page is to provide a daily planner for the user.
 
 ## Credits
 
@@ -22,7 +22,7 @@ NA
 
 ## Link
 
-https://treykockelman.github.io/04-trey-kockelman-code-quiz/
+https://treykockelman.github.io/05-trey-kockelman-calendar-planner/
 
 ## Screenshot
 
