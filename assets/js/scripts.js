@@ -16,9 +16,9 @@ var saveBtn = $('button');
 // Generates elements on HTML page
 function generateElements(hourFormat) {
   var rowEl = $('<div class="row">');
-  var hourDisplayEl = $('<div class="col-1 hour">').text(hourFormat);
-  var inputEl = $('<input class="col-10">').val(events[hourFormat]);
-  var buttonEl = $('<button class="col-1 saveBtn">');
+  var hourDisplayEl = $('<div class="col-2 col-md-1 text-center hour">').text(hourFormat);
+  var inputEl = $('<input class="col-8 col-md-10 description">').val(events[hourFormat]);
+  var buttonEl = $('<button class="col-2 col-md-1 saveBtn">').text("Save");
   
   //inserts elements into rows dynamically
   rowEl.append(hourDisplayEl, inputEl, buttonEl);
@@ -45,7 +45,6 @@ function saveEvent(input, eventHour) {
   events[eventHour] = input;
   localStorage.setItem("eventsSaved", JSON.stringify(events));
   console.log(input, eventHour);
-
 }
 
 //displays current Date
